@@ -19,11 +19,11 @@ class App extends Component {
   render() {
     return (
     <div className="App">
-      <div className="App-title">Countdown to {this.state.deadline}</div>
+      <div className="App-title">Countdown to <div className="Date-title">{this.state.deadline}</div></div>
       <Clock
         deadline={this.state.deadline}
       />
-      <div>
+      <div className="input-div">
         <input
           placeholder="new date"
           onChange={event => console.log('event', this.setState({newDeadline: event.target.value}))}
