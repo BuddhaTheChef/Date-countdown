@@ -9,15 +9,17 @@ html{
 }
 
 .App-title {
-  font-size: 70px;
+  font-size: 80px;
   margin-top: -20px;
   margin-bottom: 40px;
   color: white;
    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+   font-family: 'Russo One', sans-serif;
 }
 .Date-title {
   display: inline;
   color: red;
+  font-family: 'Russo One', sans-serif;
 
 }
 
@@ -25,15 +27,20 @@ html{
   display: inline;
   margin: 20px;
   font-size: 40px;
+  font-family: 'Russo One', sans-serif;
 }
 
 .input-div {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 .num-days,.num-hours,.num-miniutes,.num-seconds{
   display: inline;
   color: red;
+  background-color: white;
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 4px;
 }
 
 .input-date{
@@ -42,8 +49,10 @@ html{
   height: 35px;
   font-size: 20px;
   padding-bottom: 4px;
+  padding-left: 20px;
   border: 1px solid red;
   border-radius: 4px;
+  font-family: 'Russo One', sans-serif;
 }
 
 .button {
@@ -60,6 +69,7 @@ html{
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 4px;
+    font-family: 'Russo One', sans-serif;
 }
 
 .button1 {
