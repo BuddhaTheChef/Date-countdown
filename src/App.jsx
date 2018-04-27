@@ -25,10 +25,11 @@ class App extends Component {
       />
       <div className="input-div">
         <input
-          placeholder="new date"
+          className="input-date"
+          placeholder="Enter a date (month day, year)"
           onChange={event => console.log('event', this.setState({newDeadline: event.target.value}))}
         />
-        <button onClick={() => this.changeDeadline()}>Submit</button>
+        <button className="button button1" onClick={() => this.changeDeadline()}>Submit</button>
       </div>
     </div>
     )

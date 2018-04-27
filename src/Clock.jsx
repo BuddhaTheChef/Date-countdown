@@ -37,10 +37,10 @@ class Clock extends Component {
   render() {
     return (
     <div>
-      <div className="Clock-days">{this.leading0(this.state.days)} days</div>
-      <div className="Clock-hours">{this.leading0(this.state.hours)} hours</div>
-      <div className="Clock-miniutes">{this.leading0(this.state.miniutes)} miniutes</div>
-      <div className="Clock-seconds">{this.leading0(this.state.seconds)} seconds</div>
+      <div className="Clock-days"><div className="num-days">{this.leading0(this.state.days)}</div> days</div>
+      <div className="Clock-hours"><div className="num-hours">{this.leading0(this.state.hours)}</div> hours</div>
+      <div className="Clock-miniutes"><div className="num-miniutes">{this.leading0(this.state.miniutes)}</div> miniutes</div>
+      <div className="Clock-seconds"><div className="num-seconds">{this.leading0(this.state.seconds)}</div> seconds</div>
     </div>
     )
   }
