@@ -50,9 +50,14 @@ html{
   font-size: 20px;
   padding-bottom: 4px;
   padding-left: 20px;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 4px;
   font-family: 'Russo One', sans-serif;
+}
+
+.input-date:hover {
+  border: 2px solid red;
+  background-color: rgb(240,240,240);
 }
 
 .button {
