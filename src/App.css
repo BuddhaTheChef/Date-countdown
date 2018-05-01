@@ -4,10 +4,25 @@ html{
 .App {
   text-align: center;
   font-size: 35px;
-  margin-top: 20%;
+  margin-top: 10%;
+}
+.clock-div{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
 
 }
+.nyText{
+  display: inline-block;
+}
+.hiText{
+  display: inline-block;
 
+}
+.tText{
+  display: inline-block;
+
+}
 .App-title {
   font-size: 80px;
   margin-top: -20px;
