@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Clock from './Clock';
-import React  from 'react';
+import Clockk from './Clockk';
 import Clock from 'react-live-clock';
 import './App.css';
 
@@ -22,16 +21,22 @@ class App extends Component {
     return (
   <div>
     <div className="clock-div">
-      <h1 className="nyText">New York</h1>
       <div>
-      <h1 className="hiText">Hawaii</h1>
-        <clock timezone-offset="-10" ></clock>
+        <h1 className="nyText">New York</h1>
+        <Clock className="clock-ny" format={'h:mm:ss a'} ticking={true} timezone={'America/New_York'} />
       </div>
-      <h1 className="tText">Tokyo</h1>
+      <div>
+        <h1 className="hiText">Hawaii</h1>
+        <Clock className="clock-hi" format={'h:mm:ss a'} ticking={true} timezone={'Pacific/Honolulu'} />
+      </div>
+      <div>
+        <h1 className="tText">Seoul</h1>
+        <Clock className="clock-kr" format={'h:mm:ss a'} ticking={true} timezone={'Asia/Seoul'} />
+      </div>
     </div>
     <div className="App">
       <div className="App-title">Countdown to <div className="Date-title">{this.state.deadline}</div></div>
-      <Clock
+      <Clockk
         deadline={this.state.deadline}
       />
       <div className="input-div">

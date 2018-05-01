@@ -4,7 +4,7 @@ html{
 .App {
   text-align: center;
   font-size: 35px;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .clock-div{
   margin-top: 60px;
@@ -17,11 +17,27 @@ html{
 }
 .hiText{
   display: inline-block;
-
 }
 .tText{
   display: inline-block;
+}
+.clock-ny{
+  display: flex;
+  font-size: 32px;
+  margin-left: -9px;
 
+}
+.clock-hi{
+  display: flex;
+  font-size: 32px;
+  justify-content: space-around;
+  margin-left: -18px;
+}
+.clock-kr{
+  display: flex;
+  font-size: 32px;
+  justify-content: space-around;
+  margin-left: -34px;
 }
 .App-title {
   font-size: 80px;
